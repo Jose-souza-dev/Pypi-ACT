@@ -61,7 +61,7 @@
     input#acao{
         width: 92%;
         height: 50px;
-        margin: 50px 0;
+        margin-top: 20px;
         border: none;
         background: #0077B6;
         color:#fff;
@@ -87,7 +87,7 @@
         width: 90%;
         height: 60px;
         background: #000000;
-        margin: 10px  0  0 15px;
+        margin: 10px  0  0 -18px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -97,7 +97,7 @@
         width: 90%;
         height: 60px;
         background: #000000;
-        margin: 10px  0  0 15px;
+        margin: 10px  0  0 -18px;
         display: flex;
         flex-direction: column;
         justify-content: center;

@@ -1,0 +1,3 @@
+Pegue os campos com  id="qt" e id="qs" e armazene em variáveis.
+Depois coloque  em um h3 com o id="qfaltam" o valor de id="qt"
+e no h3 com o id="tdescanso" o número em minutos

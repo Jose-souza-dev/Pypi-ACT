@@ -1,0 +1,105 @@
+@media(max-width:400px){
+    *{
+      margin: 0;padding: 0;
+    }
+    main{
+        width: 98%;
+        height: 100vh;
+        background-color: #fff;
+        padding:5px;
+        margin: 0  5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*Parte de textos e títulos
+    cor: #03045E
+
+    */
+
+    h1{
+        font-size: 18px;
+        color: #03045E;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 10px;
+        text-align: center;
+    }
+    h3#tdescanso{
+        font-size: 16px;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 10px;
+        text-align: center;
+    }
+    h3#qfaltam{
+        font-size: 16px;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 10px;
+        text-align: center;
+    }
+    /*--------------------------------------------*/
+
+    form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top:40px;
+        margin-left: 10px;
+    }
+    input{
+        width: 90%;
+        height: 35px;
+        margin: 10px 0;
+        padding: 5px;
+        background-color: #CAF0F8;
+        border: none;
+        border-radius: 10px;
+    }
+    input#acao{
+        width: 92%;
+        height: 40px;
+        margin: 50px 0;
+        border: none;
+        background: #0077B6;
+        color:#fff;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: bolder;
+    }
+
+    button#novo{
+        width: 80%;
+        height: 40px;
+        margin: 40px 10% 0 10%;
+        padding: 2px;
+        background-color: #03045E;
+        color: #fff;
+        font-weight: bolder;
+        border: none;
+        border-radius: 10px;
+    }
+
+
+    div#cronus{
+        width: 90%;
+        height: 60px;
+        background: #000000;
+        margin: 10px  0  0 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 6px;
+    }
+    div#count{
+        width: 90%;
+        height: 60px;
+        background: #000000;
+        margin: 10px  0  0 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 6px;
+    }
+
+}

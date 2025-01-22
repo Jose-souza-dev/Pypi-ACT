@@ -8,7 +8,7 @@ function startCountdown(minutes) {
         // Formatar para exibir com dois dígitos
         seconds = seconds < 10 ? '0' + seconds : seconds;
         
-        document.getElementById('tdescanso').innerText = minutes + ':' + seconds + ' minuto(s)';
+        document.getElementById('tdescanso').innerText = minutes + ':' + seconds;
         
         timeRemaining--;
         

@@ -9,21 +9,34 @@
 </head>
 <body>
     <main>
-        <h1>Pypi ACT</h1>
+        <br> <br>
+        <h1>Piplles ACT</h1>
         <img src="logopypiact.png" alt="" id="logo">
 
-        <form action="">
-            <input type="number" placeholder="Quantas séries?" id="qt">
-            <input type="number" placeholder="Tempo de descanso" id="td">
-            <input type="button" value="Começar" id="acao">
-        </form>
-       <div id="cronus">
-        <h3 id="tdescanso"></h3>
-       </div>
-       <div id="count">
-        <h3 id="qfaltam">Faltam...</h3>
-       </div>
-        <button id="novo" style="display:none;">Nova Contagem</button>
+        <!--Área que vai conter os checkbox-->
+
+            <!-- Caixa de entrada para o número -->
+             <br> <br>
+        Quantas séries vai fazer?
+        <input type="number" id="numberInput" placeholder="">
+        <!-- Botão para converter o valor em checkboxes -->
+        <button id="convertButton">Marcar as séries</button>
+        <!-- Div onde os checkboxes serão adicionados -->
+        <div id="checkboxContainer">
+        </div>
+        <br><br><br>
+        <p>Ajude a manter nosso projeto vivo. Copie a nossa chave pix
+            e nos envie qualquer valor, o importante é ajudar. <br>
+            Instuição: Mercado Pago. <br>
+            Nome: Francisco José Ferreira de Souza.
+        </p>
+
+        <div id="pix">
+            <!-- Caixa de texto contendo o texto a ser copiado -->
+            <input type="text" id="textToCopy" value="54168c42-baae-47e2-a965-ec9d798b9b67">
+            <!-- Botão para copiar o texto -->
+            <button id="copyButton">Copiar Pix</button>
+        </div>
         
     </main>
 
